@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="form.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+        My first web page
+    </div>
+    <div class="header2"></div>
+
+    <div class="what">
+        <p>
+            What is this?
+        </p>
+    </div>
+
+    <div>
+        <p>
+            Welcome to <span style="font-style: italic;"> my first webpage </span>. I created this webpage without the
+            assistance of a webpage editor. Just my little text editor and my keen <span
+                style="text-transform: uppercase; font-weight: bold;"> Understanding of HTML. </span>
+        </p>
+    </div>
+
+    <div class="what">
+        <p>
+            Why is this?
+        </p>
+    </div>
+
+    <div class="list-items">
+        <ul>
+            <li>
+                To learn html
+            </li>
+            <li>
+                List element
+            </li>
+            <ol>
+                <li>
+                    Home
+                </li>
+                <li>
+                    FAQ
+                </li>
+                <li>
+                    Contact
+                </li>
+                <li>
+                    About
+                </li>
+            </ol>
+            <li>
+                Here I have created ordered and unordered list
+            </li>
+        </ul>
+    </div>
+
+    <div class="what">
+        <p>
+            <a href="https://www.zeuslearning.com" target="_blank">ZeusLearning.com</a>
+        </p>
+    </div>
+
+    <div>
+        <p style="color:#94288b">
+            This link will open ZeusLearning.com in new tab
+        </p>
+    </div>
+
+    <div class="what">
+        <p>
+            On click of following image navigate to Google.com
+        </p>
+    </div>
+
+    <div class="google">
+        <a href="https://www.google.com" target="_blank"> <img src="google.png" alt="google logo" /> </a>
+    </div>
+
+    <div class="random">
+        <p>Some random table</p>
+    </div>
+
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <th>
+                        Row 1, cell 1
+                    </th>
+                    <th>
+                        Row 1, cell 2
+                    </th>
+                    <th>
+                        Row 1, cell 3
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Row 2, cell 1
+                    </th>
+                    <th>
+                        Row 2, cell 2
+                    </th>
+                    <th>
+                        Row 2, cell 3
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Row 3, cell 1
+                    </th>
+                    <th>
+                        Row 3, cell 2
+                    </th>
+                    <th>
+                        Row 3, cell 3
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        Row 4, cell 1
+                    </th>
+                    <th>
+                        Row 4, cell 2
+                    </th>
+                    <th>
+                        Row 4, cell 3
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="random">
+        <p>Some random form</p>
+    </div>
+
+    <div>
+        <p><span style="font-style: italic; text-transform: uppercase; font-weight: bold;">Note: </span> it looks a
+            part, but won't do anything</p>
+    </div>
+
+    <div>
+        <form name ="form" style="display: flex; flex-direction: column;" onsubmit="return validate()">
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" placeholder="Your Name" style="width: 10%;" />
+            <label for="comments" style="margin-top: 10px;">Comments:</label>
+            <textarea name="comment" id="comment"> </textarea>
+            <label style="margin-top: 10px;" >Are you: </label>
+            <div>
+                <input type="radio" name="gender" id="gender" value="Male" style="align-self: start;" />
+                <label>Male</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="gender" value="Female" style="align-self: start;" />
+                <label>Female</label>
+            </div>
+            <button type="submit" id="button" name="button">Submit Query</button>
+        </form>
+    </div>
+
+</body>
